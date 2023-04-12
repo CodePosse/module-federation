@@ -34,8 +34,8 @@ npm run deploy # Serve production folder
 npx nx g @nrwl/angular:remote login --host=host
 npx nx g @nrwl/angular:remote signup --host=host
 npx nx g @nrwl/angular:remote dashboard --host=host
-
+```
 ## scratch
 For dev server run "npm run start:host" and "npm run start:remotes"
 For production build run "npm run build && npm run setup && npm run deploy"
-```
+
